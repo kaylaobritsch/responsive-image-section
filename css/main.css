@@ -20,7 +20,7 @@ html {
 }
 
 .img-flex {
-  display: block;
+  display: inline-block;
   width: 100%;
 }
 
@@ -30,7 +30,7 @@ button {
   border: none;
   background-color: #555;
   padding: 0.5em 0.75em;
-
+  margin-top: 1rem;
 }
 
 img {
@@ -40,6 +40,21 @@ img {
 
 div {
   padding: 1rem;
+}
+
+h1 {
+  width: 250px;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  font-weight: normal;
 }
 
 @media only screen and (min-width: 38em) {
