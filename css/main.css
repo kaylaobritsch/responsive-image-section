@@ -20,11 +20,13 @@ html {
 }
 
 .img-flex {
-  display: block;
+  display: inline-block;
   width: 100%;
+
+  text-align: center;
 }
 
-button {
+a button {
   color: #fff;
   border-radius: 4px;
   border: none;
@@ -68,7 +70,7 @@ p {
 @media only screen and (min-width: 60em) {
   html {
     font-size: 110%;
-    line-height: 1.4;
+    line-height: 1.5;
   }
 
   .img-flex {
@@ -80,7 +82,7 @@ p {
 
   div {
     display: inline-block;
-    width: 49%;
+    max-width: 49%;
 
     text-align: left;
   }
